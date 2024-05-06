@@ -1,0 +1,104 @@
+/* Below 1120px */
+@media screen and (max-width: 70em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* Below 992px */
+@media screen and (max-width: 62em) {
+  .navbar-toggler {
+    order: 2;
+  }
+  .product-details__name {
+    font-size: 2rem;
+  }
+  .star-icon {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/* Below 850px */
+@media screen and (max-width: 53.125em) {
+  html {
+    font-size: 50%;
+  }
+  .container-grid {
+    justify-content: center;
+  }
+
+  .product-details__price {
+    font-size: 2rem;
+  }
+}
+/* Below 767px */
+@media screen and (max-width: 47.9375em) {
+  .testimonial-text {
+    padding: 2rem;
+  }
+  .testimonial-text q {
+    font-size: 1.6rem;
+  }
+  .product.col-7 {
+    width: 51%;
+  }
+}
+/* Below 600px */
+@media screen and (max-width: 43.75em) {
+  html {
+    font-size: 43.75%;
+  }
+  body {
+    padding: 2rem 4rem 8rem 4rem;
+  }
+}
+
+/* Below 550px */
+@media screen and (max-width: 34.375em) {
+  .testimonial {
+    height: 93vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 31vh);
+  }
+  .testimonial-text {
+    grid-row: 2/3;
+  }
+  .section-hero-container {
+    height: 60%;
+  }
+}
+
+/* Below 450px */
+@media screen and (max-width: 28.125em) {
+  .section-hero {
+    justify-content: flex-start;
+    height: 40vh;
+  }
+  .section-hero-container {
+    height: 70%;
+  }
+  .section-hero-overlay h1 {
+    font-size: 3.8rem;
+  }
+}
+
+/* Below 450px */
+@media screen and (max-width: 28.125em) {
+  .product-details__price {
+    font-size: 2.2rem;
+  }
+  .product-details__header,
+  .product-details__name {
+    padding: 0 0.8rem;
+  }
+}
+/* Below 350px */
+@media screen and (max-width: 21.825em) {
+  html {
+    font-size: 40.625%;
+  }
+  .product.col-7 {
+    width: 70%;
+  }
+}
