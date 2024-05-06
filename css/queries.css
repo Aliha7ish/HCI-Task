@@ -73,10 +73,10 @@
 @media screen and (max-width: 28.125em) {
   .section-hero {
     justify-content: flex-start;
-    height: 40vh;
+    height: 30vh;
   }
   .section-hero-container {
-    height: 70%;
+    height: 100%;
   }
   .section-hero-overlay h1 {
     font-size: 3.8rem;
